@@ -1,0 +1,26 @@
+{
+  "name": "hotel-booking",
+  "version": "1.0.0",
+  "description": "An online hotel booking system that helps users find comfortable hotel to stay in their desired location",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DouglasDivine/hotel-booking.git"
+  },
+  "keywords": [
+    "hotel",
+    "lodge"
+  ],
+  "author": "Douglas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DouglasDivine/hotel-booking/issues"
+  },
+  "homepage": "https://github.com/DouglasDivine/hotel-booking#readme",
+  "dependencies": {
+    "json-server": "^0.15.0"
+  }
+}
