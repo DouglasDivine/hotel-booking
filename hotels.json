@@ -1,0 +1,22 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Hephizibah",
+      "location": "Port Harcourt",
+      "price": "15000",
+      "room": "35",
+      "description": "Paradise on Earth",
+      "img_url": "./img/img11.jpg"
+    },
+    {
+      "name": "Divine Hotels",
+      "location": "Yaba",
+      "price": "6000",
+      "room": "25",
+      "description": "No place like home",
+      "img_url": "./img/img13.jpg",
+      "id": 2
+    }
+  ]
+}

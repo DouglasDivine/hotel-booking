@@ -1,6 +1,6 @@
 body {
    background-color:white;
-    color: #ff4136;
+    color: #85144b;
     margin-top: auto ;
     
     
@@ -39,17 +39,26 @@ display: flex;
 justify-content: center
 
 }
-#foot {
-    
-    color:orangered;
-    display:flex;
-    justify-content: space-evenly
+#hotels{
+height: 500px;
+display: flex;
+justify-content: space-evenly
+
 }
-
-footer>h3{
+footer{
+    background-color: #85144b;
+    height: 100px;
+    color: white;
+    text-decoration: none;
+    
+}
+.footer{
     display: flex;
-    justify-content: center;
-    color:orangered;
-    padding-top: 150x;
-
+    justify-content: space-evenly;
+    
+}
+.footer-nav{
+    list-style-type: none;
+    padding-top: 30px;
+    text-transform: uppercase;
 }
