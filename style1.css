@@ -1,18 +1,22 @@
 body {
-   background-color:white;
-    color: #ff4136;
-    margin-top: auto ;
-    
-    
+    background-color: white;
+    color: orangered;
+    margin-top: auto;
 }
+
+.jumbotron {
+    background-color: white;
+}
+
 #navlink {
     background-color: #85144b;
     display: flex;
     justify-content: space-between;
     height: 50px;
     padding-top: 10px
+}
 
-}.list a {
+.list a {
     color: aliceblue;
     text-decoration: none;
 }
@@ -29,27 +33,31 @@ body {
     margin-right: 20px;
     color: white;
 }
-.text-center{
+
+.text-center {
     text-align: center
 }
-#result{
-height: 300px;
-padding: 30px;
-display: flex;
-justify-content: center
 
-}
-#foot {
-    
-    color:orangered;
-    display:flex;
-    justify-content: space-evenly
+#result {
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-top: 0;
 }
 
-footer>h3{
+p,h3,h4 {
+    color: rgb(129, 122, 122);
+    font-size: 20px
+}
+h3,h4{
+text-align: center
+}
+#wrap{
+
     display: flex;
-    justify-content: center;
-    color:orangered;
-    padding-top: 150x;
-
+    justify-content: flex-start;
+    flex-direction:column
+}
+#image{
+    width: 100%;
+    height: 450px
 }
